@@ -1,7 +1,7 @@
-<h2> My samples: </h2>
+<h2>My samples: </h2>
 
 <hr />
-<h4>Angular example: Tasks Management</h4>
+<h4>Angular1 example: Tasks Management</h4>
 
-Please click [here](https://interest1024.github.io/Tasks_Management/app/index.html).
+<p>Please click <a href=https://interest1024.github.io/Tasks_Management/app/index.html>here</a>.</p>
 <hr />

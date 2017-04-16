@@ -1,4 +1,4 @@
-<h2>My samples: </h2>
+<h2>My examples: </h2>
 
 <hr />
 <h4>Angular1 example: Tasks Management</h4>

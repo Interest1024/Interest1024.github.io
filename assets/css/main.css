@@ -386,7 +386,7 @@
 	}
 
 	.\-8u {
-		margin-left: 66.66667%;
+		margin-left: 100%;
 	}
 
 	.\-7u {
@@ -402,7 +402,7 @@
 	}
 
 	.\-4u {
-		margin-left: 33.33333%;
+		margin-left: 0%;
 	}
 
 	.\-3u {
@@ -599,7 +599,7 @@
 		}
 
 		.\-8u\28desktop\29 {
-			margin-left: 66.66667%;
+			margin-left: 100%;
 		}
 
 		.\-7u\28desktop\29 {
@@ -615,7 +615,7 @@
 		}
 
 		.\-4u\28desktop\29 {
-			margin-left: 33.33333%;
+			margin-left: 0%;
 		}
 
 		.\-3u\28desktop\29 {
@@ -814,7 +814,7 @@
 		}
 
 		.\-8u\28tablet\29 {
-			margin-left: 66.66667%;
+			margin-left: 100%;
 		}
 
 		.\-7u\28tablet\29 {
@@ -830,7 +830,7 @@
 		}
 
 		.\-4u\28tablet\29 {
-			margin-left: 33.33333%;
+			margin-left: 0%;
 		}
 
 		.\-3u\28tablet\29 {
@@ -1029,7 +1029,7 @@
 		}
 
 		.\-8u\28mobile\29 {
-			margin-left: 66.66667%;
+			margin-left: 100%;
 		}
 
 		.\-7u\28mobile\29 {
@@ -1045,7 +1045,7 @@
 		}
 
 		.\-4u\28mobile\29 {
-			margin-left: 33.33333%;
+			margin-left: 0%;
 		}
 
 		.\-3u\28mobile\29 {
@@ -1366,10 +1366,10 @@
 			position: absolute;
 			left: 0;
 			top: 0;
-			background: url("images/bg01.png");
+			/*background: url("images/bg01.png");*/
 			width: 100%;
 			height: 100%;
-			opacity: 0.75;
+			opacity: 1;
 		}
 
 		.image.fit {
@@ -1743,10 +1743,10 @@
 		position: relative;
 		text-shadow: 1px 1px 0 #fff;
 		background-color: #fff;
-		background-image: url("images/bg03.png"), url("images/bg04.png"), url("images/bg02.png");
+		/*background-image: url("images/bg03.png"), url("images/bg04.png"), url("images/bg02.png");
 		background-repeat: no-repeat, no-repeat, repeat;
 		background-size: 100% 15em, 100% 15em, auto auto;
-		background-position: top center, bottom center, top left;
+		background-position: top center, bottom center, top left;*/
 	}
 
 	.wrapper.style3 {
@@ -1886,6 +1886,19 @@
 				}
 
 		/* Nav */
+        #icons{
+            float: left;
+            width: 30%;
+        }
+        #intro{
+            float: right;
+            width: 70%;
+        }
+        #intro_con{
+            width:70%;
+            word-wrap: break-word; 
+            word-break: normal; 
+        }
 
 			#nav {
 				position: absolute;
